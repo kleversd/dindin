@@ -11,7 +11,7 @@ header {
   background-color: #2e948a;
   display: flex;
   justify-content: space-around;
-  height: 117px;
+  height: 18vh;
 }
 
 .logo {
@@ -22,10 +22,10 @@ header {
 
 .logo h2 {
   font-family: "Ubuntu";
-  font-weight: 700px;
-  font-size: 69px;
+  font-weight: 700;
+  font-size: 4rem;
   color: #fff;
-  margin: 16px;
+  margin: 1rem;
 }
 
 nav {
@@ -33,6 +33,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -40,33 +41,28 @@ nav ul {
 }
 
 nav li {
-  margin: 32px;
+  margin: 2rem;
 }
 
 nav li a {
   font-family: "Ubuntu";
-  font-size: 23px;
-  font-weight: 700px;
+  font-size: 1.25rem;
+  font-weight: 700;
   text-decoration: none;
   color: #fdfdfd;
   text-transform: uppercase;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .banner {
   width: 80%;
   display: flex;
   justify-content: space-around;
-  padding: 32px 0;
+  padding: 40px 15px;
 }
 
 .banner-texto {
+  left: 206px;
+  top: 242px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -74,7 +70,10 @@ main {
 }
 
 .banner-texto h1 {
-  font-size: 66px;
+  left:206;
+  top: 242px;
+  line-height: 69px;
+  font-size: 60px;
   font-weight: 700px;
   color: #ff4081;
 }
@@ -157,25 +156,27 @@ main {
 
 .depoimentos h2 {
   font-family: "Ubuntu";
-  font-size: 36px;
+  font-size: 37px;
   font-weight: 700px;
   color: #009688;
-  margin: 16px 0;
+  margin: 32px 60px;
 }
 
 .users {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 80px;
-}
-
-.user {
-  width: 480px;
+  text-align: left;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px 50px;
 }
+
+.user  {
+  text-align: left;
+  width: 480px;
+  display: flex;
+  align-items: left;
+  }
+
 
 .wrapper-posts {
   width: 100;
@@ -209,7 +210,7 @@ main {
   text-align: center;
   margin-bottom: 16px;
   padding: 8px 20px;
-  border-radius: 3.8rem;
+  border-radius: 61px;
   text-decoration: none;
   background-color: transparent;
 }
